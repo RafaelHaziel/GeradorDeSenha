@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <label for="tamanho">Password Length:</label>
+        <input type="number" id="tamanho" min="1" max="50" value="8">
+        <button onclick="exibirSenha()">Generate Password</button>
+        <p id="senha"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
